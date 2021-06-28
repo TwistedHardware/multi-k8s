@@ -1,0 +1,17 @@
+# Inastall Google Cloud SDK
+
+# Confifigure SDK with auth
+
+# Login to Docker CLI
+
+# Build test
+
+# Run Test
+
+# Run script to deploy
+
+# Build and push to docker hub
+
+# Apply all config in k8s
+
+# Set latest images on each deployment
