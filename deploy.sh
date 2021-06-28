@@ -11,6 +11,6 @@ docker push twistedhardware/multi-worker:$SHA
 
 kubectl apply -f k8s
 
-kubectl set image deplyments/client-deployment client=twistedhardware/multi-client:$SHA
-kubectl set image deplyments/server-deployment server=twistedhardware/multi-server:$SHA
-kubectl set image deplyments/worker-deployment worker=twistedhardware/multi-worker:$SHA
+kubectl set image deployments/client-deployment client=twistedhardware/multi-client:$SHA
+kubectl set image deployments/server-deployment server=twistedhardware/multi-server:$SHA
+kubectl set image deployments/worker-deployment worker=twistedhardware/multi-worker:$SHA
