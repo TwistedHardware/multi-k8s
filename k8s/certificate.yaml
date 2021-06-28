@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+ 
+kind: Certificate
+metadata:
+  name: fib-tc-sa-com-tls
+spec:
+  secretName: fib-tc-sa-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: fib.tc-sa.com
+  dnsNames:
+    - fib.tc-sa.com
